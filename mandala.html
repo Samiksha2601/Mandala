@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/jpg" href="images/sectionFirst.jpg" />
+    <title>Mandala World</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h1>Mandala</h1>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="home.html">Home</a></li>
+      </ul>
+    </nav>
+
+    <div class="section1"></div>
+
+    <div class="section2">
+      <h2>Explore Art</h2>
+    </div>
+
+    <div class="section3">
+      <div class="section3-left">
+        <img src="images/sectionFirst.jpg" height="150" width="300" />
+      </div>
+      <div class="section3-right">
+        <p>What is Mandala art ?</p>
+        <ul>
+          <li>Can be simple or complex.</li>
+          <li>Can be drwan on paper, cloth, or built in stone.</li>
+          <li>Can be used for meditation, relaxation and stress relief.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section4">
+      <div class="section4-left">
+        <button>Button 1</button>
+        <button>Button 2</button>
+        <button>Button 3</button>
+      </div>
+      <div class="section4-right">
+        <h3>Form</h3>
+        <form action="index.php" method="POST" enctype="multitype/form-data">
+          <label for="Name">Name :</label>
+          <input type="text" id="name" minlength="5" maxlength="15" required />
+          <br />
+          <br />
+          <label for="Interested">Interested :</label>
+          <label for="Yes">Yes</label>
+          <input type="radio" id="yes" value="yes" name="interested" />
+          <label for="No">No</label>
+          <input type="radio" id="no" value="no" name="interested" />
+          <br />
+          <br />
+          <label for="comment">Comment :</label>
+          <textarea id="comment" rows="2" cols="20"></textarea>
+          <br />
+          <br />
+          <input type="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <footer>&copy; Samiksha Gnawali 2025</footer>
+  </body>
+</html>
